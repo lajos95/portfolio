@@ -44,6 +44,9 @@ body {
   background: #0d6efd;
 }
 
+.badge {
+  transition: all 0.3s ease;
+}
 .badge:hover {
   translate: 0 -3px;
   transition: 0.5s;
@@ -60,10 +63,26 @@ body {
   text-align: justify;
 }
 
-.question:hover {
+.gyik-item:hover {
   cursor: pointer;
 }
 
-.answer {
+.hidden {
   display: none;
+}
+
+.visible {
+  display: block;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=portfolio.css.map */

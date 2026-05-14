@@ -1,19 +1,23 @@
-$(document).ready(function () {
-    $(".question").on("click", function () {
-        const $nextAnswer = $(this).next(".answer"); 
+const gyikName = document.querySelectorAll('.gyik-name');
 
-        if ($nextAnswer.is(":visible")) {
-            $nextAnswer.slideUp();
-            $(this).removeClass("active").find("span").text("+");
+gyikName.forEach((item) => {
+    item.addEventListener('click', () => {
+        const isVisible = item.nextElementSibling.classList.contains('visible');
+        const answer = item.nextElementSibling;
+        gyikName.forEach((conitem) => {
+            conitem.nextElementSibling.classList.add('hidden');
+            conitem.nextElementSibling.classList.remove('visible');
+            conitem.querySelector('span').textContent = '+';
+        });
+        if (!isVisible) {
+            answer.classList.remove('hidden');
+            answer.classList.add('visible');
+            item.querySelector('span').textContent = '-';
         }
+    });
+});
 
-        else {
-            $(".answer").slideUp();
-            $(".question").removeClass("active").find("span").text("+")
-         
-            $nextAnswer.slideDown();
-            $(this).addClass("active").find("span").text("-");
-        }
-    })
 
-})
+
+
+
