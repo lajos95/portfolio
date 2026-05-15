@@ -73,11 +73,17 @@ body {
 
 .hidden {
     display: none;
+    opacity: 0;
+    animation: fadeOut 1s ease forwards;
 }
 
 .visible {
-    display: block;
-    animation: fadeIn 1s ease;
+    opacity: 1;
+    animation: fadeIn 1s ease forwards;
+}
+
+.fadeOut {
+    animation: fadeOut 1s ease forwards;
 }
 
 @keyframes fadeIn {
