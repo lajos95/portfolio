@@ -36,7 +36,8 @@
         "solvedtask3": "JavaScript-based dynamic elements and event handling",
         "sourcecode": "Source code: ",
         "languages": "Languages",
-        "languageslist": "Hungarian (native), English (intermediate)",
+        "languageslist1": "Hungarian (native)",
+        "languageslist2": "English (C1)",
         "license": "Driver's License",
         "licenseinfo": "Category B driver's license"
 }

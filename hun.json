@@ -35,7 +35,8 @@
         "solvedtask2": "Interaktivitás: GYIK lenyíló menük",
         "solvedtask3": "Javascript alapú dinamikus elemek és eseménykezelés",
         "languages": "Nyelvek",
-        "languageslist": "Magyar - anyanyelvi, Angol - C1 felsőfokú",
+        "languageslist1": "Magyar - anyanyelvi szint",
+        "languageslist2": "Angol - C1 felsőfokú",
         "license": "Vezetői engedély",
         "licenseinfo": "B kategóriás jogosítvány"
 }
