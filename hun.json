@@ -26,9 +26,13 @@
         "education4": "Junior Frontend Fejlesztő",
         "education5": "IEC - International Educational Center | 2025. március - 2026. március",
         "education6": "A Junior Frontend Fejlesztő képzésen különböző frontend technológiák alapjait tanultam meg, ezek mellett pedig egyéb grafikai programok megismerésével foglalkoztunk.",
+        "projekts": "Eddig elkészült, önálló projektjeim: ",
         "examwork": "Vizsgamunkám",
+        "examwork-2": "Tőzsdei hírek és árfolyam figyelő",
         "examworkdescription": "A munka rövid leírása",
         "examworkdescription1": "A vizsga elvégzése mellett leadandó vizsgamunkát kellett elkészíteni. Az én munkám egy elképzelt webshop terve volt, amely elsősorban a külső megjelenítésre és a dinamunkasan scriptből generált tartalomra épül.",
+        "examworkdescription-2": "A munka rövid leírása",
+        "examworkdescription1-2": "Ez a modern, reszponzív tőzsdei portál élő adatkapcsolat segítségével nyújt átfogó képet a vezető technológiai vállalatok aktuális piaci helyzetéről. Az oldal a Finnhub API-ra támaszkodva valós időben jeleníti meg a globális gazdasági híreket, valamint a kiválasztott cégek egyedi tőzsdei árfolyamait, leírásait és alapítói információit. A felhasználói élményt egy interaktív, Chart.js alapú elemzői diagram fokozza, amely strukturált és könnyen áttekinthető formában ábrázolja a piaci ajánlásokat. A letisztult dizájn, az üveghatású vezérlőpult, a finom hover-effektusok és a dinamikus görgetési animációk mind hozzájárulnak a professzionális, prémium megjelenéshez.",
         "usedtech": "Felhasznált technológiák:",
         "solvedtasks": "Megoldott feladatok:",
         "solvedtask1": "Reszponzív design: Mobile-first szemléletű kialakítás, minden kijelzőméretre optimalizálás",
@@ -39,5 +43,10 @@
         "languageslist1": "Magyar - anyanyelvi szint",
         "languageslist2": "Angol - C1 felsőfokú",
         "license": "Vezetői engedély",
-        "licenseinfo": "B kategóriás jogosítvány"
+        "licenseinfo": "B kategóriás jogosítvány",
+        "restapi": "REST API Integráció",
+        "solvedtask4": "A Finnhub REST API sikeres integrálása. A JavaScript fetch és async/await segítségével az oldal képes a háttérben, aszinkron módon kommunikálni a szerverrel, így a weboldal újratöltése nélkül frissülnek az árfolyamok és a hírek.",
+        "solvedtask5": "A Chart.js könyvtár használatával egy reszponzív, egymásra pakolt oszlopdiagram (stacked bar chart) létrehozása. Az API-ból érkező adatokon JavaScript szintű manipulációt (.slice(), .reverse()) hajtottam végre, hogy a grafikon a valóságnak megfelelően, balról jobbra (múlttól a jelen felé) rajzolódjon ki.",
+        "solvedtask6": "Egy egyedi, strukturált helyi JSON adatbázis (companies.json) tervezése és kezelése. A JavaScript kód a legördülő menü változásakor szimultán olvassa a külső API-t és a belső JSON fájlt, majd ezeket egyetlen egységes felületen egyesíti.",
+        "solvedtask7": "Bootstrap 5 grid rendszer, Flexbox elrendezés és modern SASS/SCSS technikák ötvözése. Sikeresen megvalósítottam az egyenlő magasságú hírkártyákat (object-fit: cover képvágással), egy modern üveghatású vezérlőpultot (glassmorphic dashboard), valamint az elemek görgetésre történő beúszását (IntersectionObserver), ami minimalizálja az oldal kezdeti terhelését és növeli a felhasználói élményt."
 }

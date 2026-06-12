@@ -13,12 +13,12 @@
 
 <body>
 
-    
+
 
     <div class="container my-5">
         <button class="btn btn-outline-secondary p-2 mb-3" data-i18n="langToggle"></button>
         <div class="row g-4">
-            <div class="col-lg-4">
+            <div class="col-lg-4 left-side">
                 <div class="profile-card shadow-sm p-4 text-center">
                     <img src="img/profile.jpg" class="profile-img rounded-circle mb-4" alt="Profilkép">
 
@@ -28,11 +28,12 @@
 
                     <hr class="border border-3 border-secondary opacity-25 my-4">
 
-                    <div class="text-start">
+                    <div class="text-start contacts">
                         <h5 class="mb-3" data-i18n="contacts"></h5>
                         <p><i class="fa-solid fa-envelope text-primary me-2"></i><span data-i18n="email"></span></p>
                         <p><i class="fa-solid fa-phone text-primary me-2"></i><span data-i18n="phone"></span></p>
-                        <p><i class="fa-solid fa-location-dot text-primary me-2"></i> <span data-i18n="address"></span></p>
+                        <p><i class="fa-solid fa-location-dot text-primary me-2"></i> <span data-i18n="address"></span>
+                        </p>
                         <p class="text-primary-emphasis"><i class="fa-brands fa-linkedin text-primary me-2"></i><a
                                 href="https://www.linkedin.com/in/lajos-balog-454801277" target="_blank"
                                 class="text-decoration-none">www.linkedin.com/in/lajos-balog-454801277</a>
@@ -43,7 +44,7 @@
                         <hr class="border border-3 border-secondary opacity-25">
                     </div>
 
-                    <div class="text-start mt-4">
+                    <div class="text-start mt-4 skills">
                         <h3 class="mb-3" data-i18n="skills"></h3>
                         <h5 data-i18n="skillslist"></h5>
                         <span class="badge bg-primary fs-5 mb-1">HTML5</span>
@@ -62,12 +63,12 @@
                         <span class="badge bg-secondary fs-5 mb-1" data-i18n="responsive-design"></span>
                         <hr class="border border-3 border-secondary opacity-25">
                     </div>
-                    <div class="text-start mt-4">
+                    <div class="text-start mt-4 languages">
                         <h5 class="mb-3" data-i18n="languages">Nyelvtudás</h5>
                         <span class="badge bg-primary fs-5 mb-1" data-i18n="languageslist1"></span>
                         <span class="badge bg-primary fs-5 mb-1" data-i18n="languageslist2"></span>
                     </div>
-                    <div class="text-start mt-4">
+                    <div class="text-start mt-4 license">
                         <h5 class="mb-3" data-i18n="license"></h5>
                         <span class="badge bg-primary fs-5 mb-1" data-i18n="licenseinfo"></span>
                     </div>
@@ -77,13 +78,13 @@
             <div class="col-lg-8">
                 <div class="bg-white shadow-sm p-4 p-md-5 rounded-4">
 
-                    <section>
+                    <section class="introduction">
                         <h3 class="section-title text-uppercase" data-i18n="introduction"></h3>
                         <p class="text-justify" data-i18n="introduction1"> </p>
                         <p class="text-justify" data-i18n="introduction2"></p>
                     </section>
 
-                    <section class="mb-5">
+                    <section class="mb-5 experience">
                         <h3 class="section-title text-uppercase" data-i18n="experience"></h3>
 
                         <div class="timeline-item">
@@ -94,7 +95,7 @@
 
                     </section>
 
-                    <section class="mb-5">
+                    <section class="mb-5 education">
                         <h3 class="section-title text-uppercase" data-i18n="education"></h3>
 
                         <div class="timeline-item">
@@ -109,15 +110,21 @@
                             <div class="text-primary mb-2" data-i18n="education5">
                             </div>
                             <p data-i18n="education6"></p>
-                            <a href="https://lajos95.github.io/Project_work/"
-                                class="projektwork fs-3 mb-6" data-i18n="examwork"></a>
+                        </div>
+                    </section>
+                    <section class="exam">
+                        <h3 class="section-title" data-i18n="projekts"></h3>
+                        <div class="timeline-item">
+                            <a href="https://lajos95.github.io/Project_work/" class="projektwork fs-3 mb-6"
+                                data-i18n="examwork"></a>
                             <div class="gyik-item mb-2">
                                 <div class="gyik-name rounded-top">
                                     <h5 class="fw-bold" data-i18n="examworkdescription"></h5>
                                 </div>
                                 <div class="gyik-content hidden rounded-bottom">
                                     <p data-i18n="examworkdescription1"></p>
-                                    <p><span data-i18n="sourcecode"></span> <a href="https://github.com/lajos95/Project_work" target="_blank"
+                                    <p><span data-i18n="sourcecode"></span> <a
+                                            href="https://github.com/lajos95/Project_work" target="_blank"
                                             class="text-decoration-none">https://github.com/lajos95/Project_work</a></p>
                                     <h6 class="fw-bold" data-i18n="usedtech"></h6>
 
@@ -140,6 +147,50 @@
                                 </div>
                             </div>
                         </div>
+                    </section>
+
+                    <section class="project-1">
+                    <div class="timeline-item">
+
+                        <a href="https://lajos95.github.io/stockmarket_web_gyak/" class="projektwork fs-3 mb-6"
+                            data-i18n="examwork-2"></a>
+                        <div class="gyik-item mb-2">
+                            <div class="gyik-name rounded-top">
+                                <h5 class="fw-bold" data-i18n="examworkdescription-2"></h5>
+                            </div>
+                            <div class="gyik-content hidden rounded-bottom">
+                                <p data-i18n="examworkdescription1-2"></p>
+                                <p><span data-i18n="sourcecode"></span> <a
+                                        href="https://github.com/lajos95/stockmarket_web_gyak" target="_blank"
+                                        class="text-decoration-none">https://github.com/lajos95/stockmarket_web_gyak</a>
+                                </p>
+                                <h6 class="fw-bold" data-i18n="usedtech"></h6>
+
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>SCSS</li>
+                                    <li>Bootstrap5</li>
+                                    <li>Bootstrap Icons</li>
+                                    <li>Javascript (ES6+)</li>
+                                    <li>Fetch API</li>
+                                    <li>Chart.js</li>
+                                    <li data-i18n="restapi"></li>
+                                    <li>JSON</li>
+                                </ul>
+
+                                <h6 class="fw-bold" data-i18n="solvedtasks"></h6>
+
+                                <ul>
+                                    <li data-i18n="solvedtask4"></li>
+                                    <li data-i18n="solvedtask5"></li>
+                                    <li data-i18n="solvedtask6"></li>
+                                    <li data-i18n="solvedtask7"></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
                     </section>
 
                 </div>

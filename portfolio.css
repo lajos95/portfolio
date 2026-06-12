@@ -101,4 +101,22 @@ body {
     opacity: 0;
     transform: translateY(-10px);
   }
+}
+@keyframes slideAnimation {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.container {
+  animation-name: slideAnimation;
+  animation-duration: 1.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: none;
 }/*# sourceMappingURL=portfolio.css.map */
